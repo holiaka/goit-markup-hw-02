@@ -1,10 +1,154 @@
 /* 
-vlcmblvc 
+************************
+* Basic styles
+************************  
 */
 
+/* Variable */
+:root{
+    --full-black-text: #000000;
+    --full-white-text: #FFFFFF;
+    --nearby-white: #F5F4FA;
+    --gray-black-text: #212121;
+    --grey-text: #757575;
+    --blue-color: #2196F3;
+}
+
+/* Standard features */
 body {
-    font-family: sans-serif;
-    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: var(--gray-black-text);
+    letter-spacing: 0.03em;
+}
+
+/* Delete all points near the list of items */
+.list{    
+    list-style: none;    
+}
+
+/* 
+************************
+* Class styles
+************************  
+*/
+
+/* Logo */
+.logo{    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--full-black-text);
+    line-height: 1.19;
+    text-decoration: none
+}
+
+.logo:hover,
+.logo:focus{
+    color: var(--blue-color);
+}
+
+/* Header - navigator */
+.site-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--gray-black-text); 
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{    
+    color: var(--blue-color);
+}
+
+.site-nav .link.current{
+    color: var(--blue-color);
+}
+
+/* Header - contacts */
+.contact .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--grey-text);    
+}
+
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--blue-color);
 }
 
 
+/* 
+************************
+* index.html styles
+************************  
+*/
+
+/* ***Main sections*** */
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: var(--full-white-text);
+        
+    background: #2F303A 
+}
+
+.order-button{
+    font-weight: 700;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: var(--full-white-text);
+
+    background-color: var(--blue-color);
+
+    cursor: pointer;
+}
+
+.benefit-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;     
+}
+
+.benefit-discr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+            
+    color: var(--grey-text);
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.person-name{
+    font-weight: 500;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.person_position{
+    font-weight: 400;
+        
+    line-height: 1.19;
+    text-align: center;
+    color: var(--grey-text);
+}

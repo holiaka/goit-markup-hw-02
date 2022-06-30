@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title lang="en">WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <!--Body of HTML-->
 
@@ -17,30 +20,30 @@
         <!--Navigation panel-->
         <nav>
             <!--Logo text and link-->
-            <a href=./index.html lang="en">WebStudio</a>
+            <a class="logo" href=./index.html lang="en">WebStudio</a>
 
             <!--Site naviagation list-->
-            <ul>
+            <ul class="site-nav list">
                 <li>
-                    <a href="">Студия</a>
+                    <a class="link current" href="./index.html">Студия</a>
                 </li>
                 <li>
-                    <a href="">Портфолио</a>
+                    <a class="link" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li>
-                    <a href="">Контакты</a>
+                    <a class="link" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
 
-        <ul>
+        <ul class="contact list">
             <li>
             <!--Contact e-mail-->
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
             <!--Contact mob. tel.-->
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
 
@@ -50,39 +53,39 @@
     <main>
         <!--Introdaction section-->
         <section>
-            <h1>Эффективнoе решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+            <h1 class="main-title">Эффективнoе решения для вашего бизнеса</h1>
+            <button class="order-button" type="button">Заказать услугу</button>
         </section>
 
         <!--Job tasks-->
         <section>
             <h2>Достоенства и портфолио работ</h2>
             <!--Benefits list-->
-            <ul>
+            <ul class="list">
                 <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="benefit-title">Внимание к деталям</h3>
+                    <p class="benefit-discr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="benefit-title">Пунктуальность</h3>
+                    <p class="benefit-discr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="benefit-title">Планирование</h3>
+                    <p class="benefit-discr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="benefit-title">Современные технологии</h3>
+                    <p class="benefit-discr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
 
         <!--Work list-->
         <section>            
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="section-title">Чем мы занимаемся</h2>
             <!--Image`s list-->
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/job-box/job-box-1.jpg" alt="Разработка программного продукта с нуля"
                             width="370" height="294">
@@ -102,29 +105,29 @@
         <!--Command-->
         <section>
             <!--Final section-->
-            <h2>Наша команда</h2>
+            <h2 class="section-title">Наша команда</h2>
 
-            <!--Percons list-->
-            <ul>
+            <!--Person list-->
+            <ul class="list">
                 <li>
                     <img src="./images/command-person/person-1.jpg" alt="" width="270" height="260">
-                    <h3>Игорь Демьяненко</h3>
-                    <p lang="en">Product Designer</p>
+                    <h3 class="person-name">Игорь Демьяненко</h3>
+                    <p class="person-position" lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/command-person/person-2.jpg" alt="" width="270" height="260">
-                    <h3>Ольга Репина</h3>
-                    <p lang="en">Frontend Developer</p>
+                    <h3 class="person-name">Ольга Репина</h3>
+                    <p class="person-position" lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/command-person/person-3.jpg" alt="" width="270" height="260">
-                    <h3>Николай Тарасов</h3>
-                    <p lang="en">Marketing</p>
+                    <h3 class="person-name">Николай Тарасов</h3>
+                    <p class="person-position" lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/command-person/person-4.jpg" alt="" width="270" height="260">
-                    <h3>Михаил Ермаков</h3>
-                    <p lang="en">UI Designer</p>
+                    <h3 class="person-name">Михаил Ермаков</h3>
+                    <p class="person-position" lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
