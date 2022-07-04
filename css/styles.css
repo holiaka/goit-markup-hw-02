@@ -6,16 +6,18 @@
 
 /* Variable */
 :root{
+    /* Text colors */
     --full-black-text: #000000;
     --full-white-text: #FFFFFF;
     --nearby-white: #F5F4FA;
     --gray-black-text: #212121;
     --grey-text: #757575;
 
+    /* Universal blue color */
     --blue-color: #2196F3;
 
+    /* Backgrounds colors */
     --black-color-background: #2F303A;
-    --white-color-background: #E5E5E5; /* why in Figma show this color*/
     --gray-background: #F5F4FA;
 }
 
@@ -224,10 +226,7 @@ body {
 * portfolio.html styles
 ************************  
 */
-/* .portfolio-section{
-    background-color: var(--white-color-background);
-} */
-
+/* Filtration buttons for portfolio */
 .portfolio-buttons{
     font-family: inherit;
     font-size: inherit;
@@ -258,6 +257,7 @@ body {
     text-decoration: none;
 }
 
+/* Portfolio list */
 .portfolio-title{
     font-weight: 700;
     font-size: 18px;
