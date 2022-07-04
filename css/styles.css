@@ -11,7 +11,12 @@
     --nearby-white: #F5F4FA;
     --gray-black-text: #212121;
     --grey-text: #757575;
+
     --blue-color: #2196F3;
+
+    --black-color-background: #2F303A;
+    --white-color-background: #E5E5E5; /* why in Figma show this color*/
+    --gray-background: #F5F4FA;
 }
 
 /* Standard features */
@@ -27,6 +32,11 @@ body {
     list-style: none;    
 }
 
+/* Remove from visible space */
+.none-visualisation {
+    display: none;
+}
+
 /* 
 ************************
 * Class styles
@@ -40,7 +50,11 @@ body {
     font-size: 26px;
     color: var(--full-black-text);
     line-height: 1.19;
-    text-decoration: none
+    text-decoration: none;
+}
+
+.blue-text-logo{
+    color: var(--blue-color);
 }
 
 .logo:hover,
@@ -82,6 +96,32 @@ body {
     color: var(--blue-color);
 }
 
+/* Footer */
+.footer-features{
+    background-color: var(--black-color-background);
+}
+
+.logo .white-text-logo{
+    color: var(--full-white-text);
+}
+
+.dev-adrress{
+    color: var(--full-white-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.dev-contact{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;   
+}
 
 /* 
 ************************
@@ -90,6 +130,11 @@ body {
 */
 
 /* ***Main sections*** */
+/* Hero section */
+.hero-section{
+    background-color: var(--black-color-background)
+}
+
 .main-title{
     font-weight: 900;
     font-size: 44px;
@@ -98,8 +143,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: var(--full-white-text);
-        
-    background: #2F303A 
 }
 
 .order-button{
@@ -117,6 +160,16 @@ body {
     cursor: pointer;
 }
 
+.order-button:hover,
+.order-button:focus{
+    background-color: #188CE8;
+}
+
+/* Benefit section */
+.job-task-section{
+    background-color: var(--full-white-text);
+}
+
 .benefit-title{
     font-weight: 700;
     font-size: 14px;
@@ -132,6 +185,15 @@ body {
     color: var(--grey-text);
 }
 
+/* Work list and team sections*/
+.work-list-section {
+    background-color: var(--full-white-text);
+}
+
+.team-section{
+    background-color: var(--gray-background);
+}
+
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -145,10 +207,53 @@ body {
     text-align: center;
 }
 
-.person_position{
-    font-weight: 400;
-        
+.person-position{
+    font-weight: 400;        
     line-height: 1.19;
     text-align: center;
     color: var(--grey-text);
+}
+
+/* 
+************************
+* portfolio.html styles
+************************  
+*/
+/* .portfolio-section{
+    background-color: var(--white-color-background);
+} */
+
+.portfolio-buttons .link{
+    font-weight: 500;
+    line-height: 1.62;
+    text-align: center;
+    text-decoration: none;
+    color: var(--gray-black-text);
+
+    background-color: var(--nearby-white);
+}
+
+.portfolio-buttons .link:hover,
+.portfolio-buttons .link:focus{
+    color: var(--full-white-text);
+
+    background-color: var(--blue-color);
+}
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;    
+    color: var(--gray-black-text);
+    text-decoration: none;
+
+}
+
+.portfolio-direction{
+    font-weight: 400;
+    line-height: 1.88;        
+    color: var(--grey-text);
+    text-decoration: none;
+
 }
