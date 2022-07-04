@@ -123,6 +123,11 @@ body {
     text-decoration: none;   
 }
 
+.dev-contact:hover,
+.dev-contact:focus{
+    color: var(--full-white-text)
+}
+
 /* 
 ************************
 * index.html styles
@@ -223,7 +228,9 @@ body {
     background-color: var(--white-color-background);
 } */
 
-.portfolio-buttons .link{
+.portfolio-buttons{
+    font-family: inherit;
+    font-size: inherit;
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
@@ -231,13 +238,24 @@ body {
     color: var(--gray-black-text);
 
     background-color: var(--nearby-white);
+
+    cursor: pointer;
 }
 
-.portfolio-buttons .link:hover,
-.portfolio-buttons .link:focus{
+.portfolio-buttons.main{
+    color: var(--full-white-text);
+    background-color: var(--blue-color);
+}
+
+.portfolio-buttons:hover,
+.portfolio-buttons:focus{
     color: var(--full-white-text);
 
     background-color: var(--blue-color);
+}
+
+.without-decor{
+    text-decoration: none;
 }
 
 .portfolio-title{
@@ -245,15 +263,11 @@ body {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;    
-    color: var(--gray-black-text);
-    text-decoration: none;
-
+    color: var(--gray-black-text);    
 }
 
 .portfolio-direction{
     font-weight: 400;
     line-height: 1.88;        
-    color: var(--grey-text);
-    text-decoration: none;
-
+    color: var(--grey-text);    
 }
