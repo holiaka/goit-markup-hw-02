@@ -15,12 +15,12 @@
 <body>
 
     <!--Top parts: logo, navigation and so on -->
-    <header>
+    <header class="header-links">
 
         <!--Navigation panel-->
         <nav>
             <!--Logo text and link-->
-            <a class="logo" href=./index.html lang="en"><span class="blue-text-logo" >Web</span>Studio</a>
+            <a class="logo" href=./index.html lang="en">Web<span class="black-color-logo">Studio</span></a>
 
             <!--Site naviagation list-->
             <ul class="site-nav list">
@@ -39,11 +39,11 @@
         <ul class="contact list">
             <li>
             <!--Contact e-mail-->
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link site-nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
             <!--Contact mob. tel.-->
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link site-nav-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
 
@@ -52,13 +52,13 @@
     <!--Main parts-->
     <main>
         <!--Introdaction section-->
-        <section class="hero-section">
-            <h1 class="main-title">Эффективнoе решения для вашего бизнеса</h1>
+        <section class="hero">
+            <h1 class="hero-title">Эффективнoе решения для вашего бизнеса</h1>
             <button class="order-button" type="button">Заказать услугу</button>
         </section>
 
         <!--Job tasks-->
-        <section class="job-task-section">
+        <section class="benefit">
             <h2 class="none-visualisation">Достоенства и портфолио работ</h2>
             <!--Benefits list-->
             <ul class="list">
@@ -82,7 +82,7 @@
         </section>
 
         <!--Work list-->
-        <section class="work-list-section">            
+        <section class="work">            
             <h2 class="section-title">Чем мы занимаемся</h2>
             <!--Image`s list-->
             <ul class="list">
@@ -103,7 +103,7 @@
         </section>
 
         <!--Command-->
-        <section class="team-section">
+        <section class="team">
             <!--Final section-->
             <h2 class="section-title">Наша команда</h2>
 
@@ -111,23 +111,23 @@
             <ul class="list">
                 <li>
                     <img src="./images/command-person/person-1.jpg" alt="Фото Игоря Демьяненко" width="270" height="260">
-                    <h3 class="person-name">Игорь Демьяненко</h3>
-                    <p class="person-position" lang="en">Product Designer</p>
+                    <h3 class="team-name">Игорь Демьяненко</h3>
+                    <p class="team-position" lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/command-person/person-2.jpg" alt="Фото Ольги Репеной" width="270" height="260">
-                    <h3 class="person-name">Ольга Репина</h3>
-                    <p class="person-position" lang="en">Frontend Developer</p>
+                    <h3 class="team-name">Ольга Репина</h3>
+                    <p class="team-position" lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/command-person/person-3.jpg" alt="Фото Николая Тарасова" width="270" height="260">
-                    <h3 class="person-name">Николай Тарасов</h3>
-                    <p class="person-position" lang="en">Marketing</p>
+                    <h3 class="team-name">Николай Тарасов</h3>
+                    <p class="team-position" lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/command-person/person-4.jpg" alt="Фото Михаила Ермакова" width="270" height="260">
-                    <h3 class="person-name">Михаил Ермаков</h3>
-                    <p class="person-position" lang="en">UI Designer</p>
+                    <h3 class="team-name">Михаил Ермаков</h3>
+                    <p class="team-position" lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -135,20 +135,20 @@
     </main>
 
     <!--Footer part-->
-    <footer class="footer-features">
+    <footer class="footer">
         <!--Logo text and link-->
-        <a class="logo" href=./index.html lang="en"><span class="blue-text-logo">Web</span><span class="white-text-logo">Studio</span></a>
+        <a class="logo" href=./index.html lang="en">Web<span class="white-text-logo">Studio</span></a>
         <!--Address and develotment contacts-->
-        <address>
-            <ul class="list">
+        <address class="footer-address">
+            <ul class="list dev-data">
                 <li>
-                    <a class="dev-adrress" href="https://goo.gl/maps/GUnd78wBxHpprMvDA" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="dev-adrress link" href="https://goo.gl/maps/GUnd78wBxHpprMvDA" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
-                    <a class="dev-contact" href="mailto:info@example.com">info@example.com</a>
+                    <a class="dev-contact link" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a class="dev-contact" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="dev-contact link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>  
         </address>
