@@ -22,7 +22,7 @@
 }
 
 /* Standard features */
-body {
+body{
     font-family: Roboto, sans-serif;
     font-size: 14px;
     color: var(--gray-text);
@@ -40,7 +40,7 @@ body {
     visibility: hidden;
 }
 
-.link {
+.link{
     text-decoration: none;
     color: currentColor;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .black-color-logo:hover,
-.black_color-logo:focus{
+.black-color-logo:focus{
     color: var(--blue-color);
 }
 
@@ -81,12 +81,11 @@ body {
     color: var(--gray-black-text); 
 }
 
-.link:hover,
-.link:focus{    
-    color: var(--blue-color);
-}
-
-.site-nav .link.current{
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav-link:hover,
+.site-nav-link:focus{
     color: var(--blue-color);
 }
 
@@ -113,11 +112,16 @@ body {
     font-style: normal;
 }
 
-.dev-data{    
-}
+/* .dev-data{    
+} */
 
 .dev-adrress{
     color: var(--full-white-text);
+}
+
+.dev-adrress:hover,
+.dev-adress:focus {
+    color: var(--gray-text)
 }
 
 .dev-contact{
@@ -154,6 +158,7 @@ body {
 .order-button{
     font-family: 'Roboto';
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.88;
     display: flex;
     align-items: center;
@@ -173,8 +178,8 @@ body {
 }
 
 /* Benefit section */
-.benefit{
-}
+/* .benefit{
+} */
 
 .benefit-title{
     font-weight: 700;
@@ -184,12 +189,12 @@ body {
     color: var(--gray-black-text)     
 }
 
-.benefit-discr{
-}
+/* .benefit-discr{
+} */
 
 /* Work list and team sections*/
-.work{
-}
+/* .work{
+} */
 
 .team{
     background-color: var(--gray-background);
@@ -221,8 +226,8 @@ body {
 ************************  
 */
 
-.portfolio{
-}
+/* .portfolio{
+} */
 
 /* Filtration buttons for portfolio */
 .portfolio-buttons{
@@ -231,6 +236,7 @@ body {
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--gray-black-text);
 
@@ -248,14 +254,14 @@ body {
 }
 
 /* Portfolio list */
-.portfolio-list{
-}
+/* .portfolio-list{
+} */
 
-.portfolio-item{
-}
+/* .portfolio-item{
+} */
 
-.portfolio-link{
-}
+/* .portfolio-link{
+} */
 
 .portfolio-title{
     font-weight: 700;
